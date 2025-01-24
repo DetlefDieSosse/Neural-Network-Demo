@@ -9,9 +9,10 @@ mnist = tf.keras.datasets.mnist
 x_train = x_train / 255.0
 
 def display_sample_image():
+    randomint = random.randint(1, 100)
     plt.figure()
-    plt.imshow(x_train[random.randint(1, 100)], cmap=plt.cm.binary)
-    plt.title(f'Sample Image - Label: {y_train[0]}')
+    plt.imshow(x_train[randomint], cmap=plt.cm.binary)
+    plt.title(f'Sample Image - Label: {y_train[randomint]}')
     plt.colorbar()
     plt.grid(False)
     plt.show()
