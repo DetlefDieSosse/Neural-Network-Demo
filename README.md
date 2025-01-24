@@ -6,6 +6,8 @@ Zum Einstieg empfehlen wir [TensorFlow Playground](https://playground.tensorflow
 
 ## Einrichtung
 
+Achtung: Nutzt Python 3.12, da 3.13 noch nicht mit tensorflow funktioniert.
+
 1. **Repository klonen**:
     ```sh
     git clone <repository-url>
